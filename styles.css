@@ -22,25 +22,8 @@
     --med-gray: #555;
     --dk-gray: #222;
 
-	--body-fonts: "Seymour" "Lato";
 }
 
-.seymour-one-regular {
-  font-family: "Seymour One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.lato-regular {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.lato-bold {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
 
 
 body {
@@ -61,7 +44,7 @@ header{
 
 h1, h2, h3{
 	text-align: center;/* center align the text */
-	/* use a web font here (instructions on page) */
+	font-family: "Seymour One";/* use a web font here (instructions on page) */
 	text-transform: uppercase;/* make the heading text all small caps style */
 }
 
@@ -117,9 +100,9 @@ section{
 }
 
 p{
-	/* set a max-width of 55 characters */
+	max-width: 55;/* set a max-width of 55 characters */
 	text-indent: 2rem;/* add an indent on the first line of 2rem */
-	/* center those paragraphs (not the text) on the page */
+	text-align: center;/* center those paragraphs (not the text) on the page */
 	padding: 0.5rem;
 }
 
@@ -132,7 +115,7 @@ a:hover{
 }
 
 dl, ol, main ul{
-	/* limit the width of these lists to 55 characters */
+	max-width: 55;/* limit the width of these lists to 55 characters */
 	margin: 1rem auto;
 }
 

@@ -21,15 +21,29 @@
     --lt-gray: #eaeaea;
     --med-gray: #555;
     --dk-gray: #222;
+
+	--body-fonts: "Seymour" "Lato";
+}
+
+.seymour-one-regular {
+  font-family: "Seymour One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 
-
-
-
-
-
-body{
+body {
 	font-family: "lato", arial, sans-serif;/* set the font family to Lato, Arial, sans-serif (--body-fonts) */
 	line-height: 1.5;/* Set the line height to 1.5 */
 	font-size: 1.1rem;/* set the font size to 1.1rem	*/
@@ -48,7 +62,7 @@ header{
 h1, h2, h3{
 	text-align: center;/* center align the text */
 	/* use a web font here (instructions on page) */
-	text-transform: uppercase small;/* make the heading text all small caps style */
+	text-transform: uppercase;/* make the heading text all small caps style */
 }
 
 h2{
